@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="memoEdit1.EditValue" xml:space="preserve">
+    <value>HƯỚNG DẪN GHI CHÉP BIỂU MẪU
+(Tại Phụ lục số 01 ban hành kèm theo Quyết định số     1399       /QĐ-BHXH
+ ngày     tháng 12 năm 2014 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam)
+
+II. Hướng dẫn nội dung, phương pháp lập và sử dụng biểu mẫu
+19. Mẫu số 19/BHYT: Thống kê vật tư y tế thanh toán BHYT 
+c. Hướng dẫn ghi chép: 
+Cột (1): Ghi số Quyết định và số thứ tự trong danh sách kèm theo Quyết định phê duyệt kết quả đấu thầu, cách nhau bằng dấu chấm (.); ví dụ thuốc số thứ tự 10 trong Quyết định số 1955/QĐ-SYT được ghi như sau: 1955.10
+Cột (2): Ghi mã số theo danh mục vật tư y tế do Bộ Y tế ban hành.
+Cột (3): Ghi chính xác tên vật tư y tế theo Danh mục do Bộ Y tế ban hành.
+Cột (4): Ghi tên thương mại của vật tư y tế 
+Cột (5) đến cột (7): Ghi lần lượt quy cách, đơn vị tính, giá mua vào. Giá mua vào ghi theo hoá đơn. Đối với vật tư y tế có thay đổi giá trong quý thì mỗi lần thay đổi ghi một dòng.
+Cột (8) và (9): Ghi số lượng sử dụng trong điều trị ngoại trú hoặc nội trú
+Cột (10): Ghi giá thanh toán BHYT 
+Cột (11): Ghi tổng số tiền thanh toán BHYT.  Cột (11)= [(8) + (9)] x (10)
+Báo cáo tổng hợp của BHXH tỉnh bổ sung cột (12) và ghi mã cơ sở y tế. 
+20. Mẫu số 20/BHYT: Thống kê thuốc thanh toán BHYT
+c. Phương pháp lập: Cơ sở y tế tổng hợp thuốc sử dụng cho người bệnh BHYT đã thống kê chi tiết trên mẫu 01/BV, 02/BV, 03/TYT ban hành kèm theo Quyết định số 3455/QĐ-BHYT của Bộ Y tế để lập biểu này (chỉ thống kê các thuốc tân dược, thuốc chế phẩm y học cổ truyền, vị thuốc y học cổ truyền thanh toán riêng, không thống kê các thuốc đã tính trong cơ cấu giá dịch vụ y tế). 
+Cột (1): Ghi số Quyết định và số thứ tự trong danh sách kèm theo Quyết định phê duyệt kết quả đấu thầu, cách nhau bằng dấu chấm (.); Ví dụ: Quyết định số 1956, thuốc có STT 100 ghi :1956.100).
+Cột (2): Ghi số thứ tự theo danh mục thuốc của Bộ Y tế. Đối với thuốc tân dược ghi theo cột STT thuốc (2) trong danh mục thuốc tại Thông tư số 40/2014/TT-BYT ngày 17/11/2014; thuốc y học cổ truyền ghi theo cột STT (I) trong danh mục ban hành kèm theo Thông tư số 12/2010/TT-BYT. Thuốc phối hợp nhiều đơn chất không quy định trong danh mục thì ghi số thứ tự của các đơn chất trong danh mục thuốc của Bộ Y tế tương ứng với các đơn chất trong thành phần của thuốc. Ví dụ: thuốc có tên Dorokit gồm các đơn chất: Clarithromycin+Tinidazol+Omeprazol, ghi: 220+216+677.
+Cột (3): Ghi tên hoạt chất gốc. 
+Cột (4): Ghi tên thành phẩm của thuốc theo tên của công ty sản xuất. 
+Cột (5): Đường dùng (uống/tiêm), dạng bào chế (viên/vỉ/lọ/tuýp/chai). 
+Cột (6): Ghi hàm lượng, nồng độ thuốc. 
+Cột (7): Ghi số đăng ký hoặc số giấy phép nhập khẩu của thuốc (đối với các thuốc chưa được cấp số đăng ký) do cơ quan có thẩm quyền cấp đối với thuốc thành phẩm; Đối với vị thuốc y học cổ truyền, ghi số thứ tự trong danh mục thuốc của Bộ Y tế (Thông tư số 12/2010/TT-BYT) + nguồn gốc của thuốc (B/N). Ví dụ vị thuốc có số thứ tự 135 có nguồn gốc Bắc thì ghi 135B; nếu có nguồn gốc Nam thì ghi 135N. Ghi liền không để khoảng trống giữa các ký tự. 
+Cột (8): Ghi đơn vị tính nhỏ nhất đã sử dụng cho người bệnh (viên, ống, lọ, …).
+Cột (9) và (10): Số lượng đã sử dụng cho người bệnh ngoại trú hoặc nội trú.
+Cột (11): Ghi đơn giá thuốc thanh toán BHYT
+Giá thuốc theo giá mua vào của cơ sở y tế. Đối với vị thuốc y học cổ truyền, giá thuốc đã tính tỷ lệ hư hao trong chế biến, bảo quản và cấp phát.
+Thuốc có thay đổi giá trong quý thì mỗi lần thay đổi ghi một dòng.
+Cột (12): Thành tiền bằng cột [(9) + (10)] x (11)
+Báo cáo tổng hợp của BHXH tỉnh bổ sung thêm cột (13) và ghi mã cơ sở, bổ sung thêm cột (14) và ghi mã loại thuốc: thuốc tân dược ghi 1, thuốc chế phẩm y học cổ truyền ghi 2, vị thuốc y học cổ truyền ghi 3.
+	21. Mẫu số 21/BHYT: Thống kê dịch vụ kỹ thanh toán BHYT
+c. Phương pháp lập: Cơ sở y tế tổng hợp tiền khám, tiền giường bệnh và các dịch vụ kỹ thuật sử dụng cho người bệnh BHYT được thống kê chi tiết trên mẫu 01, 02/BV, 03/TYT ban hành kèm theo Quyết định số 3455/QĐ-BHYT của Bộ Y tế để lập biểu này.
+Cột (1): Ghi số thứ tự của dịch vụ trong bảng giá ban hành kèm theo Quyết định phê duyệt giá của cấp có thẩm quyền, cách nhau bằng dấu chấm (.). Ví dụ tiền khám bệnh được phê duyệt theo Quyết định số 1001, số thứ tự 1, ghi 1001.1
+Cột (2): Ghi số thông tư, số thứ tự dịch vụ (cột STT) trong bảng giá dịch vụ khám bệnh, chữa bệnh do liên Bộ Y tế - Bộ Tài chính ban hành, cách nhau bằng dấu chấm (.); ví dụ: giá dịch vụ siêu âm ban hành theo Thông tư liên tịch số 04/2012/TTLT-BYT-BTC có STT là 3, ghi 04.3; riêng tiền giường ghi thêm STT theo mục, trường hợp có giá giường điều hòa và không điều hòa ghi thêm ký tự ‘C” hoặc “K”, ví dụ ngày giường bệnh nội khoa loại 1 không điều hòa ghi 04.2.B3.1.K; trường hợp có nằm ghép ghi thêm số 2 hoặc 3, ví dụ 04.2.B3.1.K.3
+Cột (3): Ghi tên dịch vụ kỹ thuật đúng theo quyết định phê duyệt giá.
+Cột (4) hoặc (5): Ghi số lượng dịch vụ kỹ thuật đã sử dụng cho người bệnh ngoại trú hoặc nội trú.
+Cột (6): Ghi đơn giá được cấp thẩm quyền phê duyệt thanh toán BHYT.
+Cột (7): Ghi số tiền cột (7) = [cột (4)+cột (5)] x cột (6) 
+Biểu mẫu này được cơ sở y tế lập riêng cho người bệnh đăng ký ban đầu tại cơ sở y tế và bệnh nhân đa tuyến đến. 
+Báo cáo tổng hợp của BHXH tỉnh bổ sung cột (8) và ghi mã cơ sở y tế./.</value>
+  </data>
+  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

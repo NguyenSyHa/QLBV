@@ -1,0 +1,128 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="QLBV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QLBVConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=manhcuong-pc\sqlexpress;Initial Catalog= QLBV_PMEM;User ID=sa;Password= 123456&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=manhcuong-pc\sqlexpress;Initial Catalog= QLBV_PMEM;User ID=sa;Password= 123456</Value>
+    </Setting>
+    <Setting Name="QLBV_vn_congdulieuyte_WSPortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://congdulieuyte.vn/hPortal/services/WSPortal</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessService30003_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinhadmin.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessService_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytkinhmonadmin.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessService30007_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvdktukycadmin.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessservice30012_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiangadmin.vnpt-invoice.com.vn/Businessservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessServicedemo_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytkinhmonadmindemo.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessservicedemo30003_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinhadmindemo.vnpt-invoice.com.vn/Businessservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessServiceDemo30007_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvdktukyadmindemo.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalService_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytkinhmonadmin.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalService30003_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinhadmin.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalService30007_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvdktukycadmin.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalservice30012_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiangadmin.vnpt-invoice.com.vn/portalservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServicedemo_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytkinhmonadmindemo.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalservicedemo30003_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinhadmindemo.vnpt-invoice.com.vn/Portalservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServiceDemo30007_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvdktukyadmindemo.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishService_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytkinhmonadmin.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishservice30003_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinhadmin.vnpt-invoice.com.vn/Publishservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishService30007_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvdktukycadmin.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishservice30012_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiangadmin.vnpt-invoice.com.vn/publishservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishServicedemo_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytkinhmonadmindemo.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishservicedemo30003_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinhadmindemo.vnpt-invoice.com.vn/publishservice.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishServiceDemo30007_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvdktukyadmindemo.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishServiceDemo27022_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvmatbnh-tt78admindemo.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishService27022_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvmatbnh-tt78admindemo.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalService27022_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://bvmatbnh-tt78admindemo.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishservicedemo30003_TT78_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admindemo.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServicedemo30003_TT78_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admindemo.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessservicedemo30003_TT78_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admindemo.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPotalServicedemo_30003_TT78_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admindemo.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishserviceCongThat30003_TT78_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admin.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServiceCongThat30003_TT78_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admin.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvBusinessserviceCongThat30003_TT78_BusinessService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytchilinh-tt78admin.vnpt-invoice.com.vn/BusinessService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServicedemo_30012_TT78_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiang-tt78admindemo.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishServicedemo_30012_TT78_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiang-tt78admindemo.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServiceCongThat_27022_TT78_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://2300244498-tt78cadmin.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishServiceCongThat_27022_TT78_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://2300244498-tt78cadmin.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPortalServiceCongThat_30012_TT78_PortalService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiang-tt78admin.vnpt-invoice.com.vn/PortalService.asmx</Value>
+    </Setting>
+    <Setting Name="QLBV_InvPublishServiceCongThat_30012_TT78_PublishService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ttytcamgiang-tt78admin.vnpt-invoice.com.vn/PublishService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

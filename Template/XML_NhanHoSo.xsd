@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML 2015 Designer Edition (Trial) 13.2.3.6018 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" attributeFormDefault="unqualified" elementFormDefault="qualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GIAMDINHHS">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="THONGTINDONVI" minOccurs="1">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="MACSKCB" minOccurs="1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="1"></xs:minLength>
+                    <xs:maxLength value="5"></xs:maxLength>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="THONGTINHOSO"  minOccurs="1">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="NGAYLAP" minOccurs="1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="^\s*([0-9]{4}((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|30|31))?\s*$"></xs:pattern>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SOLUONGHOSO"  minOccurs="1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:int">
+                    <xs:minInclusive value="1"></xs:minInclusive>
+                    <xs:maxInclusive value="999999"></xs:maxInclusive>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DANHSACHHOSO" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="HOSO"  minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FILEHOSO"  minOccurs="1" maxOccurs="5">
+                            <xs:complexType>
+                              <xs:all>
+                                <xs:element name="LOAIHOSO" minOccurs="1">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:pattern value="^\s*(XML1|XML2|XML3|XML4|XML5)\s*$"></xs:pattern>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="NOIDUNGFILE" type="xs:string"  minOccurs="1" nillable="false"/>
+                              </xs:all>
+                            </xs:complexType>
+                          </xs:element>
+
+
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CHUKYDONVI" minOccurs="0">
+          <xs:complexType>
+            <!--<xs:all>
+              <xs:element name="Signature" minOccurs="0">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="SignedInfo" type="xs:string" minOccurs="0"/>
+                    <xs:element name="SignatureValue" type="xs:string" minOccurs="0"/>
+                    <xs:element name="KeyInfo" type="xs:string" minOccurs="0"/>
+                    <xs:element name="Object" type="xs:string" minOccurs="0"/>
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+            </xs:all>-->
+          </xs:complexType>
+        </xs:element>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

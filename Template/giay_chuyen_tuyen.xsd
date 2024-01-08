@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GiayChuyenTuyen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TuyenChuyenDi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CoQuanChuQuan" type="str15" />
+              <xs:element name="MaCSKCBDi" type="str15" />
+              <xs:element name="TenCSKCBDi" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TuyenChuyenDen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaCSKCBDen" type="str15" />
+              <xs:element name="TenCSKCBDen" type="str15" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ThongTinHoSo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SoHoSo" type="str15" />
+              <xs:element name="SoChuyenTuyen" type="str15" />
+              <xs:element name="SoGiay" type="str15" />
+              <xs:element name="ThongTinNguoiBenh">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="HoTen" type="xs:string" />
+                    <xs:element name="GioiTinh" type="int1"/>
+                    <xs:element name="NamSinh" type="str8" />
+                    <xs:element name="DiaChi" type="xs:string" />
+                    <xs:element name="DanToc" type="xs:string" />
+                    <xs:element name="QuocTich" type="xs:string" />
+                    <xs:element name="NgheNghiep" type="xs:string" />
+                    <xs:element name="NoiLamViec" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ThongTinThe">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SoThe" type="xs:string" />
+                    <xs:element name="GiaTriTu" type="str8" />
+                    <xs:element name="GiaTriDen" type="str8" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="TomTatKhamBenh">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="KhamDieuTriTai" type="xs:string" />
+                    <xs:element name="TuNgay" type="str8" />
+                    <xs:element name="DenNgay" type="str8" />
+                    <xs:element name="TuyenTruocChuyenDen" type="xs:string" />
+                    <xs:element name="NgayChuyenDen" type="str8" />
+                    <xs:element name="SoChuyenDen" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="TomTatBenhAn">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DauHieuLamSang" type="xs:string" />
+                    <xs:element name="XetNghiem" type="xs:string" />
+                    <xs:element name="ChuanDoan" type="xs:string" />
+                    <xs:element name="PP_DieuTri" type="xs:string" />
+                    <xs:element name="TinhTrangChuyen" type="xs:string" />
+                    <xs:element name="LyDoChuyen" type="xs:string" />
+                    <xs:element name="HuongDieuTri" type="xs:string" />
+                    <xs:element name="NgayChuyenTuyen" type="str8" />
+                    <xs:element name="PhuongTienChuyen" type="xs:string" />
+                    <xs:element name="ThongTin_HoTong" type="xs:string" />
+                    <xs:element name="BacSyDieuTri" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DinhKem">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TenFile" type="xs:string" />
+                    <xs:element name="LoaiFile" type="xs:string" />
+                    <xs:element name="NoiDungFile"  type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ChuKyDonVi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Signature">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SignedInfo" type="xs:string" />
+                    <xs:element name="SignatureValue" type="xs:string" />
+                    <xs:element name="KeyInfo" type="xs:string"/>
+                    <xs:element name="Object" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="str15">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="15"></xs:maxLength>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="int1">
+    <xs:restriction base="xs:unsignedInt">
+      <xs:maxInclusive value="2"></xs:maxInclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="str8">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="8"/>
+      <xs:minLength value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

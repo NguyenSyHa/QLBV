@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel26.Text" xml:space="preserve">
+    <value>1. Danh từ Gây mê hồi sức bao gồm gây mê, gây tê, châm tê để phẫu thuật và hồi sức.
+2. Bảng này áp dụng cho tất cả mọi tuyến: thông tin nào mà ở cơ sở không có thì để trống: ví dụ FeCO2.
+3. Giải thích nội dung các từ trong bảng.
+- Chẩn đoán: chẩn đoán bệnh khi người bệnh vào phẫu thuật.
+- Tác dụng: tác dụng của tiền mê: tốt, trung bình, xấu.
+- Loại phẫu thuật: ví dụ: cắt dạ dày bán phần.
+- Người gây mê, ví dụ bác sĩ A.
+- Phương pháp vô cảm: ví dụ gây mê nội khí quản ...
+- Đánh giá trước phẫu thuật:
+	+ ASA (phân loại tình trạng người bệnh theo hiệp hội GMHS thế giới) ví dụ mức độ (20.
+	+ Dạ dày đầy, cấp cứu (tức người bệnh có dạ dày đầy, mổ cấp cứu).
+	+ Mallampati: mức độ khó khi đặt nội khí quản được dự kiến trước mê: ví dụ (2).
+	+ Tiền sử dùng thuốc liên quan GMHS ví dụ thuốc ức chế bêta.
+	+ Nhiệt độ: ví dụ 390C lúc 10g50.
+	+ Mất máu: ước lượng qua bình hút, qua vết phẫu thuật: ví dụ 500ml.
+	+ Nước tiểu: ví dụ 500ml cuối cuộc phẫu thuật.
+	+ ALĐMP: áp lực động mạch phổi.
+	+ ALĐMPB: áp lực động mạch phổi bít.
+	+ ALTMTU: áp lực tĩnh mạch trung ương.
+	+ Nhịp thở: ví dụ: 20 lần/phút.
+
+Máy thở:
+- TTLT = thể tích lưu thông, ví dụ 400ml.
+- FeCO2: áp lực C02 trong hơi thở về cuối thời kỳ thở ra (viết như sau: ví dụ TTLT 400ml        FeCO2 37mmHg)
+- Áp lực: chỉ trên đồng hồ áp lực khi thở máy, ví dụ 15cm H2O.
+- SpO2: Ví dụ 95%, là bão hoà oxy trong máu động mạch đo bằng máy Pulse oxymeter.
+- FiO2: % oxy trong luồng khí thở vào, ví dụ 40%.
+- % Halo, Iso; N2O: đậm độ thuốc mê: ví dụ Halo 2% thì gạch ngang dưới Halo và ghi 2% vào các thời điểm ứng trên hàng.
+- Thuốc: các thuốc dùng trong mê.
+- Dịch truyền: các dịch, máu dùng trong khi phẫu thuật.
+- Quan sát: Nhận xét của người gây mê về các sự kiện xẩy ra trong từng thời điểm của quá trình phẫu thuật.
+  Ví dụ:     - Chẩy máu lúc 9.20
+                 - Tím tái lúc 9.20
+                 - HA mx: tối đa
+                          mn: tối thiểu
+                 - Mạch: 
+4. Ghi chú: ở tuyến huyện: chỉ cần ghi huyết áp, mạch, nhịp thở và một số điều khác có thể có được: ví dụ mất mát thuốc, dịch truyền, quan sát.
+</value>
+  </data>
+</root>

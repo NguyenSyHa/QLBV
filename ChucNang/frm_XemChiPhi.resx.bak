@@ -1,0 +1,1865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="TenNhom.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="DongY.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="DongY.Caption" xml:space="preserve">
+    <value>Dong Y</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupControl6.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grcThanhToan.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grcThanhToan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="grvThanhToan.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colMaDV.Caption" xml:space="preserve">
+    <value>Tên chi phí</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lupMaDVtt.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="lupMaDVtt.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="colMaDV.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Count</value>
+  </data>
+  <data name="colMaDV.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMaDV.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colMaDV.Width" type="System.Int32, mscorlib">
+    <value>542</value>
+  </data>
+  <data name="colDonVi.Caption" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="colDonVi.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDonVi.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colDonVi.Width" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="colDonGia.Caption" xml:space="preserve">
+    <value>Đơn giá</value>
+  </data>
+  <data name="colDonGia.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDonGia.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colDonGia.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="colSoLuong.Caption" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="colSoLuong.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSoLuong.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colSoLuong.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colThanhTien.Caption" xml:space="preserve">
+    <value>thành tiền</value>
+  </data>
+  <data name="colThanhTien.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="colThanhTien.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colThanhTien.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colThanhTien.Width" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="colTrongBH.Caption" xml:space="preserve">
+    <value>Trong DMBH</value>
+  </data>
+  <data name="luptrongDM.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="luptrongDM.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="luptrongDM.Columns" xml:space="preserve">
+    <value>Ten_TrongBH</value>
+  </data>
+  <data name="luptrongDM.Columns1" xml:space="preserve">
+    <value>Trong DMBH</value>
+  </data>
+  <data name="luptrongDM.Columns2" xml:space="preserve">
+    <value>TrongBH</value>
+  </data>
+  <data name="luptrongDM.Columns3" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="luptrongDM.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colTrongBH.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTrongBH.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colTrongBH.Width" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="colSua.Caption" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="htp_Sua.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="htp_Sua.NullText" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="colSua.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSua.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colSua.Width" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="colMaKP.Caption" xml:space="preserve">
+    <value>Khoa|Phòng</value>
+  </data>
+  <data name="lupMaKP.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lupMaKP.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="lupMaKP.Columns" xml:space="preserve">
+    <value>TenKP</value>
+  </data>
+  <data name="lupMaKP.Columns1" xml:space="preserve">
+    <value>TenKP</value>
+  </data>
+  <data name="lupMaKP.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colMaKP.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMaKP.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colMaKP.Width" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="colMien.Caption" xml:space="preserve">
+    <value>Miễn(%)</value>
+  </data>
+  <data name="colMien.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMien.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colMien.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colTyLeTT.Caption" xml:space="preserve">
+    <value>TL TT</value>
+  </data>
+  <data name="colTyLeTT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colTyLeTT.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colTyLeTT.Width" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="grvThanhToan.GroupFormat" xml:space="preserve">
+    <value>{1}</value>
+  </data>
+  <data name="grvThanhToan.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="grvThanhToan.GroupSummary1" xml:space="preserve">
+    <value>thanhtien</value>
+  </data>
+  <data name="grvThanhToan.GroupSummary2" xml:space="preserve">
+    <value>##,###</value>
+  </data>
+  <data name="grvThanhToan.GroupSummary3" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Count</value>
+  </data>
+  <data name="grvThanhToan.GroupSummary4" xml:space="preserve">
+    <value>madv</value>
+  </data>
+  <data name="grvThanhToan.GroupSummary5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="grvThanhToan.GroupSummary6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grcThanhToan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1159, 546</value>
+  </data>
+  <data name="grcThanhToan.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;grcThanhToan.Name" xml:space="preserve">
+    <value>grcThanhToan</value>
+  </data>
+  <data name="&gt;&gt;grcThanhToan.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.MyGridControl, QLBV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grcThanhToan.Parent" xml:space="preserve">
+    <value>groupControl6</value>
+  </data>
+  <data name="&gt;&gt;grcThanhToan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="groupControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1163, 570</value>
+  </data>
+  <data name="groupControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="groupControl6.Text" xml:space="preserve">
+    <value>Chi tiết dịch vụ</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.Name" xml:space="preserve">
+    <value>groupControl6</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;groupControl6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLuu.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnLuu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 6</value>
+  </data>
+  <data name="btnLuu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 39</value>
+  </data>
+  <data name="btnLuu.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="btnLuu.Text" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="&gt;&gt;btnLuu.Name" xml:space="preserve">
+    <value>btnLuu</value>
+  </data>
+  <data name="&gt;&gt;btnLuu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnLuu.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;btnLuu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdbTrongDM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbTrongDM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdbTrongDM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 5</value>
+  </data>
+  <data name="rdbTrongDM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="rdbTrongDM.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="rdbTrongDM.Text" xml:space="preserve">
+    <value>Trong DM</value>
+  </data>
+  <data name="&gt;&gt;rdbTrongDM.Name" xml:space="preserve">
+    <value>rdbTrongDM</value>
+  </data>
+  <data name="&gt;&gt;rdbTrongDM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbTrongDM.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;rdbTrongDM.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rdbKhongTT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbKhongTT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdbKhongTT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 5</value>
+  </data>
+  <data name="rdbKhongTT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="rdbKhongTT.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="rdbKhongTT.Text" xml:space="preserve">
+    <value>Không Thanh Toán</value>
+  </data>
+  <data name="&gt;&gt;rdbKhongTT.Name" xml:space="preserve">
+    <value>rdbKhongTT</value>
+  </data>
+  <data name="&gt;&gt;rdbKhongTT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbKhongTT.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;rdbKhongTT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdbNgoaiDM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbNgoaiDM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdbNgoaiDM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="rdbNgoaiDM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="rdbNgoaiDM.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="rdbNgoaiDM.Text" xml:space="preserve">
+    <value>Ngoài DM</value>
+  </data>
+  <data name="&gt;&gt;rdbNgoaiDM.Name" xml:space="preserve">
+    <value>rdbNgoaiDM</value>
+  </data>
+  <data name="&gt;&gt;rdbNgoaiDM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbNgoaiDM.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;rdbNgoaiDM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textEdit1.EditValue" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 27</value>
+  </data>
+  <data name="textEdit1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="textEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.Name" xml:space="preserve">
+    <value>textEdit1</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelControl2.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Miễn|Giảm(%):</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelControl1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 6</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 51</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="panelControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 14</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>In:</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnXoa.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnXoa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 3</value>
+  </data>
+  <data name="btnXoa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="btnXoa.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnXoa.Text" xml:space="preserve">
+    <value>&amp;Xóa TT</value>
+  </data>
+  <data name="&gt;&gt;btnXoa.Name" xml:space="preserve">
+    <value>btnXoa</value>
+  </data>
+  <data name="&gt;&gt;btnXoa.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXoa.Parent" xml:space="preserve">
+    <value>panChucNang</value>
+  </data>
+  <data name="&gt;&gt;btnXoa.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnThanhToan.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnThanhToan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="btnThanhToan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="btnThanhToan.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="btnThanhToan.Text" xml:space="preserve">
+    <value>&amp;Thanh toán</value>
+  </data>
+  <data name="&gt;&gt;btnThanhToan.Name" xml:space="preserve">
+    <value>btnThanhToan</value>
+  </data>
+  <data name="&gt;&gt;btnThanhToan.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnThanhToan.Parent" xml:space="preserve">
+    <value>panChucNang</value>
+  </data>
+  <data name="&gt;&gt;btnThanhToan.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnXem.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnXem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 4</value>
+  </data>
+  <data name="btnXem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="btnXem.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnXem.Text" xml:space="preserve">
+    <value>Xem &amp;BK</value>
+  </data>
+  <data name="&gt;&gt;btnXem.Name" xml:space="preserve">
+    <value>btnXem</value>
+  </data>
+  <data name="&gt;&gt;btnXem.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXem.Parent" xml:space="preserve">
+    <value>panChucNang</value>
+  </data>
+  <data name="&gt;&gt;btnXem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panChucNang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 28</value>
+  </data>
+  <data name="panChucNang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 28</value>
+  </data>
+  <data name="panChucNang.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;panChucNang.Name" xml:space="preserve">
+    <value>panChucNang</value>
+  </data>
+  <data name="&gt;&gt;panChucNang.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panChucNang.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;panChucNang.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboInBangKe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 35</value>
+  </data>
+  <data name="cboInBangKe.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cboInBangKe.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items" xml:space="preserve">
+    <value>Bảng kê mẫu A5</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items1" xml:space="preserve">
+    <value>Bảng kê mẫu A4</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items2" xml:space="preserve">
+    <value>Bảng kê mẫu A4_New</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items3" xml:space="preserve">
+    <value>Phiếu TT ra viện mẫu 38</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items4" xml:space="preserve">
+    <value>Phiếu TT ra viện mẫu 40</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items5" xml:space="preserve">
+    <value>Phiếu khám chữa bệnh mẫu 08</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items6" xml:space="preserve">
+    <value>Phiếu theo dõi điều trị(mẫu 13)</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items7" xml:space="preserve">
+    <value>Phiếu TT ra viện mẫu 38(Theo khoa|Phòng)</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items8" xml:space="preserve">
+    <value>Bảng kê chi phí theo khoa phòng (01071)</value>
+  </data>
+  <data name="cboInBangKe.Properties.Items9" xml:space="preserve">
+    <value>Bảng kê QĐ 6556</value>
+  </data>
+  <data name="cboInBangKe.Properties.NullText" xml:space="preserve">
+    <value>Chọn mẫu bảng kê</value>
+  </data>
+  <data name="cboInBangKe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="cboInBangKe.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;cboInBangKe.Name" xml:space="preserve">
+    <value>cboInBangKe</value>
+  </data>
+  <data name="&gt;&gt;cboInBangKe.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cboInBangKe.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;cboInBangKe.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lupBPKe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 6</value>
+  </data>
+  <data name="lupBPKe.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lupBPKe.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns" xml:space="preserve">
+    <value>TenKP</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns1" xml:space="preserve">
+    <value>Tên bộ phận</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lupBPKe.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns9" xml:space="preserve">
+    <value>MaBP</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns10" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns11" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns12" type="DevExpress.Utils.FormatType, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lupBPKe.Properties.Columns14" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns15" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns16" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="lupBPKe.Properties.Columns17" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="lupBPKe.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lupBPKe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="lupBPKe.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;lupBPKe.Name" xml:space="preserve">
+    <value>lupBPKe</value>
+  </data>
+  <data name="&gt;&gt;lupBPKe.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lupBPKe.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;lupBPKe.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelControl21.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 8</value>
+  </data>
+  <data name="labelControl21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
+  <data name="labelControl21.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="labelControl21.Text" xml:space="preserve">
+    <value>Bộ Phận TT:</value>
+  </data>
+  <data name="&gt;&gt;labelControl21.Name" xml:space="preserve">
+    <value>labelControl21</value>
+  </data>
+  <data name="&gt;&gt;labelControl21.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl21.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;labelControl21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelControl41.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 8</value>
+  </data>
+  <data name="labelControl41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 14</value>
+  </data>
+  <data name="labelControl41.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="labelControl41.Text" xml:space="preserve">
+    <value>CB TT:</value>
+  </data>
+  <data name="&gt;&gt;labelControl41.Name" xml:space="preserve">
+    <value>labelControl41</value>
+  </data>
+  <data name="&gt;&gt;labelControl41.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl41.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;labelControl41.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lupNguoiTT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 5</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns" xml:space="preserve">
+    <value>TenCB</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns1" xml:space="preserve">
+    <value>Tên Bác Sĩ</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns2" xml:space="preserve">
+    <value>MaCB</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns3" xml:space="preserve">
+    <value>Mã</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns4" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns5" type="DevExpress.Utils.FormatType, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lupNguoiTT.Properties.Columns7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns8" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns9" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="lupNguoiTT.Properties.Columns10" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="lupNguoiTT.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lupNguoiTT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="lupNguoiTT.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;lupNguoiTT.Name" xml:space="preserve">
+    <value>lupNguoiTT</value>
+  </data>
+  <data name="&gt;&gt;lupNguoiTT.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lupNguoiTT.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;lupNguoiTT.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelControl34.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="labelControl34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 14</value>
+  </data>
+  <data name="labelControl34.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="labelControl34.Text" xml:space="preserve">
+    <value>Ngày TT: </value>
+  </data>
+  <data name="&gt;&gt;labelControl34.Name" xml:space="preserve">
+    <value>labelControl34</value>
+  </data>
+  <data name="&gt;&gt;labelControl34.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl34.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;labelControl34.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dtNgayTT.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dtNgayTT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 6</value>
+  </data>
+  <data name="dtNgayTT.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="dtNgayTT.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="dtNgayTT.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="dtNgayTT.Properties.Mask.EditMask" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm ss</value>
+  </data>
+  <data name="dtNgayTT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="dtNgayTT.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;dtNgayTT.Name" xml:space="preserve">
+    <value>dtNgayTT</value>
+  </data>
+  <data name="&gt;&gt;dtNgayTT.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dtNgayTT.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;dtNgayTT.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 574</value>
+  </data>
+  <data name="panelBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1167, 62</value>
+  </data>
+  <data name="panelBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Name" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1167, 574</value>
+  </data>
+  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xtraTabPage1.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1167, 636</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>Chi phí</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Name" xml:space="preserve">
+    <value>xtraTabPage1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1172, 661</value>
+  </data>
+  <data name="xtraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="xtraTabPage2.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnXemChiPhi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 473</value>
+  </data>
+  <data name="btnXemChiPhi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="btnXemChiPhi.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnXemChiPhi.Text" xml:space="preserve">
+    <value>Xem chi phí chỉ định</value>
+  </data>
+  <data name="&gt;&gt;btnXemChiPhi.Name" xml:space="preserve">
+    <value>btnXemChiPhi</value>
+  </data>
+  <data name="&gt;&gt;btnXemChiPhi.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXemChiPhi.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;btnXemChiPhi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl10.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="grcTamUngct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grcTamUngct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="grvTamUngCt.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="grvTamUngCt.Appearance.GroupFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="grvTamUngCt.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="madv_tu.Caption" xml:space="preserve">
+    <value>Tên chi phí</value>
+  </data>
+  <data name="madv_tu.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Count</value>
+  </data>
+  <data name="madv_tu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="madv_tu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="madv_tu.Width" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="DonVi_tu.Caption" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="DonVi_tu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DonVi_tu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DonVi_tu.Width" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="DonGia_tu.Caption" xml:space="preserve">
+    <value>Đơn giá</value>
+  </data>
+  <data name="DonGia_tu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DonGia_tu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DonGia_tu.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="SoLuong_tu.Caption" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="SoLuong_tu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SoLuong_tu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SoLuong_tu.Width" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="ThanhTien_tu.Caption" xml:space="preserve">
+    <value>thành tiền</value>
+  </data>
+  <data name="ThanhTien_tu.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ThanhTien_tu.Summary1" xml:space="preserve">
+    <value>ThanhTien</value>
+  </data>
+  <data name="ThanhTien_tu.Summary2" xml:space="preserve">
+    <value>{0:##,###.##}</value>
+  </data>
+  <data name="ThanhTien_tu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ThanhTien_tu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ThanhTien_tu.Width" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="SoTien.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SoTien.Caption" xml:space="preserve">
+    <value>Số tiền thu</value>
+  </data>
+  <data name="SoTien.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="SoTien.Summary1" xml:space="preserve">
+    <value>SoTien</value>
+  </data>
+  <data name="SoTien.Summary2" xml:space="preserve">
+    <value>{0:##,###.##}</value>
+  </data>
+  <data name="SoTien.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SoTien.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SoTien.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="TrongBH_tu.Caption" xml:space="preserve">
+    <value>Trong DMBH</value>
+  </data>
+  <data name="lup_TrongDMtu.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lup_TrongDMtu.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="lup_TrongDMtu.Columns" xml:space="preserve">
+    <value>Ten_TrongBH</value>
+  </data>
+  <data name="lup_TrongDMtu.Columns1" xml:space="preserve">
+    <value>Trong DMBH</value>
+  </data>
+  <data name="lup_TrongDMtu.Columns2" xml:space="preserve">
+    <value>TrongBH</value>
+  </data>
+  <data name="lup_TrongDMtu.Columns3" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="lup_TrongDMtu.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TrongBH_tu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TrongBH_tu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TrongBH_tu.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="gridColumn7.Caption" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="repositoryItemHyperLinkEdit4.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemHyperLinkEdit4.Caption" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="repositoryItemHyperLinkEdit4.NullText" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="gridColumn7.Width" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="gridColumn8.Caption" xml:space="preserve">
+    <value>Khoa|Phòng</value>
+  </data>
+  <data name="repositoryItemLookUpEdit5.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemLookUpEdit5.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="repositoryItemLookUpEdit5.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridColumn8.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="lup_TenDVtu.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lup_TenDVtu.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="lup_TenDVtu.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repositoryItemLookUpEdit6.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemLookUpEdit6.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="grcTamUngct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1170, 280</value>
+  </data>
+  <data name="grcTamUngct.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;grcTamUngct.Name" xml:space="preserve">
+    <value>grcTamUngct</value>
+  </data>
+  <data name="&gt;&gt;grcTamUngct.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;grcTamUngct.Parent" xml:space="preserve">
+    <value>groupControl10</value>
+  </data>
+  <data name="&gt;&gt;grcTamUngct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupControl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 163</value>
+  </data>
+  <data name="groupControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1174, 304</value>
+  </data>
+  <data name="groupControl10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupControl10.Text" xml:space="preserve">
+    <value>Chi phí thu thẳng</value>
+  </data>
+  <data name="&gt;&gt;groupControl10.Name" xml:space="preserve">
+    <value>groupControl10</value>
+  </data>
+  <data name="&gt;&gt;groupControl10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl10.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupControl5.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="grcTamUng.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grcTamUng.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="grvTamUng.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="grvTamUng.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="colNgayThu.Caption" xml:space="preserve">
+    <value>Ngày thu</value>
+  </data>
+  <data name="colNgayThu.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colNgayThu.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colNgayThu.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="coPhanLoai.Caption" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="lup_PhanLoai.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lup_PhanLoai.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="coPhanLoai.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coPhanLoai.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="coPhanLoai.Width" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="colMaCB.Caption" xml:space="preserve">
+    <value>Cán bộ thu</value>
+  </data>
+  <data name="lup_CanBoThu.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lup_CanBoThu.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="colMaCB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colMaCB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colMaCB.Width" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="colSoTien.Caption" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="colSoTien.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSoTien.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colSoTien.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="colLyDo.Caption" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="colLyDo.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="colLyDo.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colLyDo.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colLyDo.Width" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
+  <data name="colIDTamUng.Caption" xml:space="preserve">
+    <value>Số phiếu</value>
+  </data>
+  <data name="colIDTamUng.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colIDTamUng.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colIDTamUng.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="colMaKPthu.Caption" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="repositoryItemComboBox1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemComboBox1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="repositoryItemComboBox1.Items" xml:space="preserve">
+    <value>Tạm thu</value>
+  </data>
+  <data name="repositoryItemComboBox1.Items1" xml:space="preserve">
+    <value>Thu thanh toán</value>
+  </data>
+  <data name="repositoryItemComboBox1.Items2" xml:space="preserve">
+    <value>Chi thanh toán</value>
+  </data>
+  <data name="repositoryItemComboBox1.Items3" xml:space="preserve">
+    <value>Thu thẳng (Thu trực tiếp)</value>
+  </data>
+  <data name="repositoryItemComboBox1.Items4" xml:space="preserve">
+    <value>Chi tạm ứng</value>
+  </data>
+  <data name="grcTamUng.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1170, 139</value>
+  </data>
+  <data name="grcTamUng.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;grcTamUng.Name" xml:space="preserve">
+    <value>grcTamUng</value>
+  </data>
+  <data name="&gt;&gt;grcTamUng.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;grcTamUng.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;grcTamUng.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1174, 163</value>
+  </data>
+  <data name="groupControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupControl5.Text" xml:space="preserve">
+    <value>Danh sách tạm thu - Thu - Chi TT</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Name" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Parent" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1174, 636</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>Tạm thu|Thu|Chi TT</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Name" xml:space="preserve">
+    <value>xtraTabPage2</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.Parent" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Name" xml:space="preserve">
+    <value>xtraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xtraTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1172, 661</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Xem chi phí bệnh nhân</value>
+  </data>
+  <data name="&gt;&gt;TenNhom.Name" xml:space="preserve">
+    <value>TenNhom</value>
+  </data>
+  <data name="&gt;&gt;TenNhom.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DongY.Name" xml:space="preserve">
+    <value>DongY</value>
+  </data>
+  <data name="&gt;&gt;DongY.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;grvThanhToan.Name" xml:space="preserve">
+    <value>grvThanhToan</value>
+  </data>
+  <data name="&gt;&gt;grvThanhToan.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.MyGridView, QLBV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colMaDV.Name" xml:space="preserve">
+    <value>colMaDV</value>
+  </data>
+  <data name="&gt;&gt;colMaDV.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lupMaDVtt.Name" xml:space="preserve">
+    <value>lupMaDVtt</value>
+  </data>
+  <data name="&gt;&gt;lupMaDVtt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDonVi.Name" xml:space="preserve">
+    <value>colDonVi</value>
+  </data>
+  <data name="&gt;&gt;colDonVi.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDonGia.Name" xml:space="preserve">
+    <value>colDonGia</value>
+  </data>
+  <data name="&gt;&gt;colDonGia.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSoLuong.Name" xml:space="preserve">
+    <value>colSoLuong</value>
+  </data>
+  <data name="&gt;&gt;colSoLuong.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colThanhTien.Name" xml:space="preserve">
+    <value>colThanhTien</value>
+  </data>
+  <data name="&gt;&gt;colThanhTien.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTrongBH.Name" xml:space="preserve">
+    <value>colTrongBH</value>
+  </data>
+  <data name="&gt;&gt;colTrongBH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;luptrongDM.Name" xml:space="preserve">
+    <value>luptrongDM</value>
+  </data>
+  <data name="&gt;&gt;luptrongDM.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSua.Name" xml:space="preserve">
+    <value>colSua</value>
+  </data>
+  <data name="&gt;&gt;colSua.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;htp_Sua.Name" xml:space="preserve">
+    <value>htp_Sua</value>
+  </data>
+  <data name="&gt;&gt;htp_Sua.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMaKP.Name" xml:space="preserve">
+    <value>colMaKP</value>
+  </data>
+  <data name="&gt;&gt;colMaKP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lupMaKP.Name" xml:space="preserve">
+    <value>lupMaKP</value>
+  </data>
+  <data name="&gt;&gt;lupMaKP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMien.Name" xml:space="preserve">
+    <value>colMien</value>
+  </data>
+  <data name="&gt;&gt;colMien.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colTyLeTT.Name" xml:space="preserve">
+    <value>colTyLeTT</value>
+  </data>
+  <data name="&gt;&gt;colTyLeTT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;grvTamUngCt.Name" xml:space="preserve">
+    <value>grvTamUngCt</value>
+  </data>
+  <data name="&gt;&gt;grvTamUngCt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;madv_tu.Name" xml:space="preserve">
+    <value>madv_tu</value>
+  </data>
+  <data name="&gt;&gt;madv_tu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DonVi_tu.Name" xml:space="preserve">
+    <value>DonVi_tu</value>
+  </data>
+  <data name="&gt;&gt;DonVi_tu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DonGia_tu.Name" xml:space="preserve">
+    <value>DonGia_tu</value>
+  </data>
+  <data name="&gt;&gt;DonGia_tu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SoLuong_tu.Name" xml:space="preserve">
+    <value>SoLuong_tu</value>
+  </data>
+  <data name="&gt;&gt;SoLuong_tu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ThanhTien_tu.Name" xml:space="preserve">
+    <value>ThanhTien_tu</value>
+  </data>
+  <data name="&gt;&gt;ThanhTien_tu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SoTien.Name" xml:space="preserve">
+    <value>SoTien</value>
+  </data>
+  <data name="&gt;&gt;SoTien.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TrongBH_tu.Name" xml:space="preserve">
+    <value>TrongBH_tu</value>
+  </data>
+  <data name="&gt;&gt;TrongBH_tu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lup_TrongDMtu.Name" xml:space="preserve">
+    <value>lup_TrongDMtu</value>
+  </data>
+  <data name="&gt;&gt;lup_TrongDMtu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn7.Name" xml:space="preserve">
+    <value>gridColumn7</value>
+  </data>
+  <data name="&gt;&gt;gridColumn7.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemHyperLinkEdit4.Name" xml:space="preserve">
+    <value>repositoryItemHyperLinkEdit4</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemHyperLinkEdit4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn8.Name" xml:space="preserve">
+    <value>gridColumn8</value>
+  </data>
+  <data name="&gt;&gt;gridColumn8.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit5.Name" xml:space="preserve">
+    <value>repositoryItemLookUpEdit5</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lup_TenDVtu.Name" xml:space="preserve">
+    <value>lup_TenDVtu</value>
+  </data>
+  <data name="&gt;&gt;lup_TenDVtu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit6.Name" xml:space="preserve">
+    <value>repositoryItemLookUpEdit6</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemLookUpEdit6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;grvTamUng.Name" xml:space="preserve">
+    <value>grvTamUng</value>
+  </data>
+  <data name="&gt;&gt;grvTamUng.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colNgayThu.Name" xml:space="preserve">
+    <value>colNgayThu</value>
+  </data>
+  <data name="&gt;&gt;colNgayThu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;coPhanLoai.Name" xml:space="preserve">
+    <value>coPhanLoai</value>
+  </data>
+  <data name="&gt;&gt;coPhanLoai.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lup_PhanLoai.Name" xml:space="preserve">
+    <value>lup_PhanLoai</value>
+  </data>
+  <data name="&gt;&gt;lup_PhanLoai.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMaCB.Name" xml:space="preserve">
+    <value>colMaCB</value>
+  </data>
+  <data name="&gt;&gt;colMaCB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lup_CanBoThu.Name" xml:space="preserve">
+    <value>lup_CanBoThu</value>
+  </data>
+  <data name="&gt;&gt;lup_CanBoThu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSoTien.Name" xml:space="preserve">
+    <value>colSoTien</value>
+  </data>
+  <data name="&gt;&gt;colSoTien.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colLyDo.Name" xml:space="preserve">
+    <value>colLyDo</value>
+  </data>
+  <data name="&gt;&gt;colLyDo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIDTamUng.Name" xml:space="preserve">
+    <value>colIDTamUng</value>
+  </data>
+  <data name="&gt;&gt;colIDTamUng.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colMaKPthu.Name" xml:space="preserve">
+    <value>colMaKPthu</value>
+  </data>
+  <data name="&gt;&gt;colMaKPthu.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Name" xml:space="preserve">
+    <value>repositoryItemComboBox1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_XemChiPhi</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

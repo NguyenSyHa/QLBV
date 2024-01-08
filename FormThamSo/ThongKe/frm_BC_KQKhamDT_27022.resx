@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="memoEdit1.EditValue" xml:space="preserve">
+    <value>HƯỚNG DẪN IN BÁO CÁO
+1.Số lần khám
+2.Điều trị nội trú
+- Tổng phẫu thuật: Tổng BN phẫu thuật = TTT+ G+ M+ Q+ Khác+ Nội khoa.
++ TTT: Mã ICD: H25, H26.2
++ G: Mã ICD: H40.0
++ Mộng: Mã ICD: H11.0
++ Quặm: Mã ICD: H02.0
++ Khác: Số bệnh nhân phẫu thuật có mã ICD khác với các mã ICD trên.
++ Nội khoa: BN không phẫu thuật
+3.Ngày điều trị nội trú: Ghi tổng số ngày điều trị nội trú với bệnh nhân đã ra viện. Ngày điều trị nội trú= Phẫu thuật loại I+ phẫu thuật loại II+ phẫu thuật loại III+ Nội khoa
+- Phẫu thuật loại I: Số ngày điều trị nội trú với bệnh nhân phẫu thuật loại I và sử dụng giường loại 2
+- Phẫu thuật loại II: Số ngày điều trị nội trú với bệnh nhân phẫu thuật loại II và sử dụng giường loại 3
+- Phẫu thuật loại II: Số ngày điều trị nội trú với bệnh nhân phẫu thuật loại III và sử dụng giường loại 4
+- Nội khoa: BN sử dụng giường nội khoa
+- Công suất giường bệnh theo tuần = Ngày điều trị nội trú / 145
+- Công suất giường bệnh theo tháng = Ngày điều trị nội trú / 700.
+4.Xét nghiệm: Tổng số xét nghiệm đã thực hiện. Xét nghiệm= Máu+ Nước tiểu+ Sinh hóa máu+ Vi sinh + Siêu âm+ Soi đáy mắt trực tiếp+ S…
+- Máu: Bệnh nhân sử dụng dịch vụ có TenRG tiểu nhóm: Máu.
+- Nước tiểu: Bệnh nhân sử dụng dịch vụ có TenRG tiểu nhóm: XN nước tiểu.
+- Sinh hóa máu: Bệnh nhân sử dụng dịch vụ có TenRG tiểu nhóm: XN hóa sinh máu.
+- Vi sinh: Bệnh nhân sử dụng dịch vụ có TenRG tiểu nhóm: XN vi sinh.
+- Siêu âm: Bệnh nhân sử dụng dịch vụ có TenRG tiểu nhóm: Siêu âm.
+- Soi máy TT: Bệnh nhân sử dụng dịch vụ có tên “soi đáy mắt trực tiếp”
+- Soi góc tiền phòng: Bệnh nhân sử dụng dịch vụ có tên “soi góc tiền phòng”
+
+5.Chuyển viện: Số bệnh nhân nội trú chuyển viện
+6.Ra viện: Tổng số bệnh nhân đã ra viện 
+- Đục TTT: Mã ICD: H25, H26.2
+- Glocom: Mã ICD: H40.0
+- Mộng: Mã ICD: H11.0
+- Quặm: Mã ICD: H02.0
+- Khác: Số bệnh nhân phẫu thuật có mã ICD khác với các mã ICD trên.
+</value>
+  </data>
+</root>

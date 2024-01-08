@@ -1,0 +1,1274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrTable1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>0.124224029, 8.333333</value>
+  </data>
+  <assembly alias="DevExpress.Drawing.v22.2" name="DevExpress.Drawing.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrTableCell1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell1.Text" xml:space="preserve">
+    <value>XÉT NGHIỆM</value>
+  </data>
+  <data name="xrTableCell1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xrTableCell1.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell4.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell4.Text" xml:space="preserve">
+    <value>GIÁ TRỊ BÌNH THƯỜNG</value>
+  </data>
+  <data name="xrTableCell4.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell4.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell5.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>KẾT QUẢ</value>
+  </data>
+  <data name="xrTableCell5.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell5.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>XÉT NGHIỆM</value>
+  </data>
+  <data name="xrTableCell2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell2.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell6.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell6.Text" xml:space="preserve">
+    <value>GIÁ TRỊ BÌNH THƯỜNG</value>
+  </data>
+  <data name="xrTableCell6.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell6.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell3.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>KẾT QUẢ</value>
+  </data>
+  <data name="xrTableCell3.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell3.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableRow1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 8.25pt</value>
+  </data>
+  <data name="xrTableRow1.Weight" type="System.Double, mscorlib">
+    <value>1.0682848704579182</value>
+  </data>
+  <data name="xrLabel9.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel9.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>29.5611076, 2.95639038E-05</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrLabel9.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>97.13348, 41.6671448</value>
+  </data>
+  <data name="xrLabel9.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel18.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabel18.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>4.16666651, 7.555548</value>
+  </data>
+  <data name="xrLabel18.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="xrLabel18.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell7.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell8.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTableCell8.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell8.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell9.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell9.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell9.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrLabel17.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabel17.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>4.16665649, 7.55554867</value>
+  </data>
+  <data name="xrLabel17.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="xrLabel17.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel12.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel12.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>29.35591, 2.95639038E-05</value>
+  </data>
+  <data name="xrLabel12.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>97.33862, 41.66716</value>
+  </data>
+  <data name="xrLabel12.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrTableCell10.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell11.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTableCell11.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell11.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell12.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell12.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell12.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableRow2.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrLabel10.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel10.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>29.5611076, 1.04904175E-05</value>
+  </data>
+  <data name="xrLabel10.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>97.13347, 41.66716</value>
+  </data>
+  <data name="xrLabel10.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel19.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabel19.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>4.16666651, 9.667174</value>
+  </data>
+  <data name="xrLabel19.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="xrLabel19.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell13.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell14.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTableCell14.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell14.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell15.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell15.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell15.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrLabel13.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel13.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>29.35591, 1.04904175E-05</value>
+  </data>
+  <data name="xrLabel13.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>97.33859, 41.66716</value>
+  </data>
+  <data name="xrLabel13.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel20.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabel20.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>4.166626, 9.667178</value>
+  </data>
+  <data name="xrLabel20.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="xrLabel20.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell16.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell17.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTableCell17.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell17.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell18.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell18.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell18.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableRow3.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrLabel11.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel11.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>29.5610981, 4.863739E-05</value>
+  </data>
+  <data name="xrLabel11.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>97.1334839, 41.6671</value>
+  </data>
+  <data name="xrLabel11.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel22.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabel22.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>4.16666651, 10.055542</value>
+  </data>
+  <data name="xrLabel22.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="xrLabel22.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell19.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell20.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTableCell20.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell20.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell21.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell21.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell21.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrLabel14.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrLabel14.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>29.35597, 4.863739E-05</value>
+  </data>
+  <data name="xrLabel14.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>97.33862, 41.6670837</value>
+  </data>
+  <data name="xrLabel14.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel21.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabel21.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>4.166626, 10.0555449</value>
+  </data>
+  <data name="xrLabel21.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="xrLabel21.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell22.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell23.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="xrTableCell23.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell23.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableCell24.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell24.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell24.Weight" type="System.Double, mscorlib">
+    <value>0.5</value>
+  </data>
+  <data name="xrTableRow4.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTable1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>760.1675, 169.5139</value>
+  </data>
+  <data name="Detail.HeightF" type="System.Single, mscorlib">
+    <value>177.847229</value>
+  </data>
+  <data name="Detail.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="TopMargin.HeightF" type="System.Single, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="TopMargin.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="BottomMargin.HeightF" type="System.Single, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="BottomMargin.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrPictureBox2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>0, 2.583329</value>
+  </data>
+  <data name="xrPictureBox2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>82.29168, 77.6844</value>
+  </data>
+  <data name="xrPictureBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="xrPictureBox1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>0, 2.583329</value>
+  </data>
+  <data name="xrPictureBox1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>155.9206, 52.1547</value>
+  </data>
+  <data name="xrPictureBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colDiaChi.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colDiaChi.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>290.863861, 52.1547</value>
+  </data>
+  <data name="colDiaChi.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>216.038681, 28.1130333</value>
+  </data>
+  <data name="colDiaChi.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="picBoxLogo.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>0.8171399, 0</value>
+  </data>
+  <data name="picBoxLogo.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>82.29167, 66.6666641</value>
+  </data>
+  <data name="xrLabel25.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel25.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>525.7034, 173.65451</value>
+  </data>
+  <data name="xrLabel25.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>66.2320557, 25.08332</value>
+  </data>
+  <data name="xrLabel25.Text" xml:space="preserve">
+    <value>xrLabel52</value>
+  </data>
+  <data name="xrLabel25.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel26.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel26.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>449.0316, 172.029709</value>
+  </data>
+  <data name="xrLabel26.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>76.6719055, 25.083252</value>
+  </data>
+  <data name="xrLabel26.Text" xml:space="preserve">
+    <value>Năm sinh:</value>
+  </data>
+  <data name="xrLabel26.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtBarcode.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtBarcode.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>678.0648, 44.0670166</value>
+  </data>
+  <data name="txtBarcode.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>85.45917, 23</value>
+  </data>
+  <data name="txtBarcode.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtBarcode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblBarcode.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lblBarcode.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>608.0867, 44.0670166</value>
+  </data>
+  <data name="lblBarcode.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>69.97809, 23</value>
+  </data>
+  <data name="lblBarcode.Text" xml:space="preserve">
+    <value>Barcode:</value>
+  </data>
+  <data name="lblBarcode.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblBarcode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtThe3.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>DarkBlue</value>
+  </data>
+  <data name="txtThe3.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtThe3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>625.782349, 198.738113</value>
+  </data>
+  <data name="txtThe3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.4862976, 22.9997635</value>
+  </data>
+  <data name="txtThe3.Text" xml:space="preserve">
+    <value>txtThe3</value>
+  </data>
+  <data name="txtThe3.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txtThe5.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>DarkBlue</value>
+  </data>
+  <data name="txtThe5.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtThe5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>693.9632, 198.7378</value>
+  </data>
+  <data name="txtThe5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>63.0793457, 22.9999237</value>
+  </data>
+  <data name="txtThe5.Text" xml:space="preserve">
+    <value>txtThe5</value>
+  </data>
+  <data name="txtThe5.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txtThe2.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>DarkBlue</value>
+  </data>
+  <data name="txtThe2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtThe2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>594.296, 198.738113</value>
+  </data>
+  <data name="txtThe2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>31.4862976, 22.9997635</value>
+  </data>
+  <data name="txtThe2.Text" xml:space="preserve">
+    <value>txtThe2</value>
+  </data>
+  <data name="txtThe2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txtThe1.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>DarkBlue</value>
+  </data>
+  <data name="txtThe1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtThe1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>554.47644, 198.73793</value>
+  </data>
+  <data name="txtThe1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>39.81958, 22.9997864</value>
+  </data>
+  <data name="txtThe1.Text" xml:space="preserve">
+    <value>txtThe1</value>
+  </data>
+  <data name="txtThe1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txtThe4.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>DarkBlue</value>
+  </data>
+  <data name="txtThe4.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtThe4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>657.2686, 198.738113</value>
+  </data>
+  <data name="txtThe4.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>36.69464, 22.9997711</value>
+  </data>
+  <data name="txtThe4.Text" xml:space="preserve">
+    <value>txtThe4</value>
+  </data>
+  <data name="txtThe4.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel24.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel24.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>472.2182, 145.2634</value>
+  </data>
+  <data name="xrLabel24.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>39.5833435, 23</value>
+  </data>
+  <data name="xrLabel24.Text" xml:space="preserve">
+    <value>xrLabel24</value>
+  </data>
+  <data name="xrLabel24.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel23.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel23.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>321.5143, 145.2634</value>
+  </data>
+  <data name="xrLabel23.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>39.5833435, 23</value>
+  </data>
+  <data name="xrLabel23.Text" xml:space="preserve">
+    <value>xrLabel23</value>
+  </data>
+  <data name="xrLabel23.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel16.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel16.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>396.2002, 145.2634</value>
+  </data>
+  <data name="xrLabel16.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>76.0180359, 23</value>
+  </data>
+  <data name="xrLabel16.Text" xml:space="preserve">
+    <value>Cấp cứu</value>
+  </data>
+  <data name="xrLabel16.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel15.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel15.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>247.22258, 145.2634</value>
+  </data>
+  <data name="xrLabel15.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>74.29178, 23</value>
+  </data>
+  <data name="xrLabel15.Text" xml:space="preserve">
+    <value>Thường</value>
+  </data>
+  <data name="xrLabel15.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrLabel8.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel8.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>594.2961, 221.737976</value>
+  </data>
+  <data name="xrLabel8.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>137.190247, 24.27179</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>xrLabel8</value>
+  </data>
+  <data name="xrLabel8.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel7.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel7.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>525.703369, 221.737686</value>
+  </data>
+  <data name="xrLabel7.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>67.5640259, 24.272049</value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>Giường:</value>
+  </data>
+  <data name="xrLabel7.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel6.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel6.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>415.230865, 221.737427</value>
+  </data>
+  <data name="xrLabel6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>110.472473, 24.2723389</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>xrLabel6</value>
+  </data>
+  <data name="xrLabel6.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel5.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>356.353577, 221.737686</value>
+  </data>
+  <data name="xrLabel5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>58.87732, 24.2720642</value>
+  </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>Buồng:</value>
+  </data>
+  <data name="xrLabel5.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel4.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>73.2108154, 221.737686</value>
+  </data>
+  <data name="xrLabel4.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>283.1428, 24.272049</value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value>xrLabel4</value>
+  </data>
+  <data name="xrLabel4.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel3.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>5.10803843, 221.385529</value>
+  </data>
+  <data name="xrLabel3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>68.10277, 24.6241913</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>- Khoa:</value>
+  </data>
+  <data name="xrLabel3.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab9.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab9.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>726.018738, 172.0306</value>
+  </data>
+  <data name="lab9.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>28.94867, 25.083313</value>
+  </data>
+  <data name="lab9.Text" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="lab9.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab7.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab7.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>591.935547, 173.654953</value>
+  </data>
+  <data name="lab7.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>45.8833, 25.083252</value>
+  </data>
+  <data name="lab7.Text" xml:space="preserve">
+    <value>Tuổi:</value>
+  </data>
+  <data name="lab7.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab11.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab11.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>449.685425, 198.7378</value>
+  </data>
+  <data name="lab11.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>104.791016, 22.6477661</value>
+  </data>
+  <data name="lab11.Text" xml:space="preserve">
+    <value>Số thẻ BHYT:</value>
+  </data>
+  <data name="lab11.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel52.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel52.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>637.818848, 173.654892</value>
+  </data>
+  <data name="xrLabel52.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>46.180603, 25.08332</value>
+  </data>
+  <data name="xrLabel52.Text" xml:space="preserve">
+    <value>xrLabel52</value>
+  </data>
+  <data name="xrLabel52.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 24pt, style=Bold</value>
+  </data>
+  <data name="xrLabel1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>683.9996, 155.608826</value>
+  </data>
+  <data name="xrLabel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>19.79163, 41.5044</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>xrLabel1</value>
+  </data>
+  <data name="xrLabel1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>BottomCenter</value>
+  </data>
+  <data name="lab8.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab8.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>683.999451, 172.030151</value>
+  </data>
+  <data name="lab8.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>42.0192261, 25.08332</value>
+  </data>
+  <data name="lab8.Text" xml:space="preserve">
+    <value>Nam/</value>
+  </data>
+  <data name="lab8.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="colTenCQCQ.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 8.25pt</value>
+  </data>
+  <data name="colTenCQCQ.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>290.863861, 0</value>
+  </data>
+  <data name="colTenCQCQ.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>216.038681, 23</value>
+  </data>
+  <data name="colTenCQCQ.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="colTenCQ.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colTenCQ.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>290.863861, 24.0416679</value>
+  </data>
+  <data name="colTenCQ.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>216.038681, 28.1130333</value>
+  </data>
+  <data name="colTenCQ.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab15.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab15.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>5.10803843, 246.009781</value>
+  </data>
+  <data name="lab15.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>101.993782, 22.5648956</value>
+  </data>
+  <data name="lab15.Text" xml:space="preserve">
+    <value>- Chẩn đoán:</value>
+  </data>
+  <data name="lab15.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtKCoBH.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtKCoBH.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>107.101822, 246.009781</value>
+  </data>
+  <data name="txtKCoBH.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>649.9407, 22.5647736</value>
+  </data>
+  <data name="txtKCoBH.Text" xml:space="preserve">
+    <value>txtKCoBH</value>
+  </data>
+  <data name="txtKCoBH.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab6.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab6.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>5.10803843, 172.029709</value>
+  </data>
+  <data name="lab6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>150.812592, 25.0837631</value>
+  </data>
+  <data name="lab6.Text" xml:space="preserve">
+    <value>- Họ tên bệnh nhân:</value>
+  </data>
+  <data name="lab6.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab10.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab10.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>5.10803843, 197.1135</value>
+  </data>
+  <data name="lab10.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>68.10276, 24.2720871</value>
+  </data>
+  <data name="lab10.Text" xml:space="preserve">
+    <value>- Địa chỉ:</value>
+  </data>
+  <data name="lab10.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel73.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="xrLabel73.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>73.2108154, 197.1135</value>
+  </data>
+  <data name="xrLabel73.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>375.820648, 24.2721863</value>
+  </data>
+  <data name="xrLabel73.Text" xml:space="preserve">
+    <value>xrLabel73</value>
+  </data>
+  <data name="xrLabel73.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="colSo.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="colSo.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>661.975769, 21.0670147</value>
+  </data>
+  <data name="colSo.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>96.59827, 23.0000019</value>
+  </data>
+  <data name="colSo.Text" xml:space="preserve">
+    <value>colSo</value>
+  </data>
+  <data name="colSo.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>628.907349, 0</value>
+  </data>
+  <data name="lab2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>129.666626, 21.06701</value>
+  </data>
+  <data name="lab2.Text" xml:space="preserve">
+    <value>MS: 28/BV - 01</value>
+  </data>
+  <data name="lab2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 24pt, style=Bold</value>
+  </data>
+  <data name="xrLabel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>726.01886, 155.608826</value>
+  </data>
+  <data name="xrLabel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>19.79169, 41.50459</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>xrLabel2</value>
+  </data>
+  <data name="xrLabel2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>BottomCenter</value>
+  </data>
+  <data name="txtBNhan.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="txtBNhan.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>155.9206, 172.029709</value>
+  </data>
+  <data name="txtBNhan.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>293.1109, 25.08377</value>
+  </data>
+  <data name="txtBNhan.Text" xml:space="preserve">
+    <value>txtBNhan</value>
+  </data>
+  <data name="txtBNhan.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lab1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 15pt, style=Bold</value>
+  </data>
+  <data name="lab1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>247.22258, 93.1087</value>
+  </data>
+  <data name="lab1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>307.253845, 51.1130333</value>
+  </data>
+  <data name="lab1.Text" xml:space="preserve">
+    <value>PHIẾU XÉT NGHIỆM
+HOÁ SINH NỘI TIẾT TỐ</value>
+  </data>
+  <data name="lab1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lab3.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lab3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>628.907349, 21.0670147</value>
+  </data>
+  <data name="lab3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>33.06836, 22.95833</value>
+  </data>
+  <data name="lab3.Text" xml:space="preserve">
+    <value>Số:</value>
+  </data>
+  <data name="lab3.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ReportHeader.HeightF" type="System.Single, mscorlib">
+    <value>276.3246</value>
+  </data>
+  <data name="NamSinh.Description" xml:space="preserve">
+    <value>Parameter1</value>
+  </data>
+  <data name="labTongSoLuot.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="labTongSoLuot.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>0, 0</value>
+  </data>
+  <data name="labTongSoLuot.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>334.939819, 23</value>
+  </data>
+  <data name="labTongSoLuot.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrTable2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>1.58945713E-05, 22.9999866</value>
+  </data>
+  <data name="xrTableCell25.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11pt, style=Italic</value>
+  </data>
+  <data name="xrTableCell25.Text" xml:space="preserve">
+    <value>xrTableCell25</value>
+  </data>
+  <data name="xrTableCell25.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell25.Weight" type="System.Double, mscorlib">
+    <value>1.321623544931112</value>
+  </data>
+  <data name="xrTableCell26.Weight" type="System.Double, mscorlib">
+    <value>0.32914737425999774</value>
+  </data>
+  <data name="xrTableCell27.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 11pt, style=Italic</value>
+  </data>
+  <data name="xrTableCell27.Text" xml:space="preserve">
+    <value>xrTableCell27</value>
+  </data>
+  <data name="xrTableCell27.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell27.Weight" type="System.Double, mscorlib">
+    <value>1.34922908080889</value>
+  </data>
+  <data name="xrTableRow5.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 10pt, style=Italic</value>
+  </data>
+  <data name="xrTableRow5.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell31.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell31.Text" xml:space="preserve">
+    <value>Bác sỹ điều trị</value>
+  </data>
+  <data name="xrTableCell31.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell31.Weight" type="System.Double, mscorlib">
+    <value>1.3216235449311122</value>
+  </data>
+  <data name="xrTableCell32.Weight" type="System.Double, mscorlib">
+    <value>0.3291473448407386</value>
+  </data>
+  <data name="xrTableCell33.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell33.Text" xml:space="preserve">
+    <value>Trưởng khoa xét nghiệm</value>
+  </data>
+  <data name="xrTableCell33.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell33.Weight" type="System.Double, mscorlib">
+    <value>1.3492291102281493</value>
+  </data>
+  <data name="xrTableRow7.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell28.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell28.Text" xml:space="preserve">
+    <value>xrTableCell28</value>
+  </data>
+  <data name="xrTableCell28.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>BottomCenter</value>
+  </data>
+  <data name="xrTableCell28.Weight" type="System.Double, mscorlib">
+    <value>1.3216235449311122</value>
+  </data>
+  <data name="xrTableCell29.Weight" type="System.Double, mscorlib">
+    <value>0.32914747074038953</value>
+  </data>
+  <data name="xrTableCell30.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell30.Text" xml:space="preserve">
+    <value>xrTableCell30</value>
+  </data>
+  <data name="xrTableCell30.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>BottomCenter</value>
+  </data>
+  <data name="xrTableCell30.Weight" type="System.Double, mscorlib">
+    <value>1.3492289843284984</value>
+  </data>
+  <data name="xrTableRow6.Weight" type="System.Double, mscorlib">
+    <value>2.5833334350585937</value>
+  </data>
+  <data name="xrTable2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>760.2917, 114.583336</value>
+  </data>
+  <data name="ReportFooter.HeightF" type="System.Single, mscorlib">
+    <value>137.583328</value>
+  </data>
+  <data name="xrSubreport1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>0, 0</value>
+  </data>
+  <data name="xrSubreport1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>761, 62.16666</value>
+  </data>
+  <data name="GroupFooter1.HeightF" type="System.Single, mscorlib">
+    <value>62.16666</value>
+  </data>
+  <data name="GroupFooter1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Landscape" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Margins" type="DevExpress.Drawing.DXMargins, DevExpress.Drawing.v22.2">
+    <value>39, 27, 37, 26</value>
+  </data>
+  <data name="$this.PageHeight" type="System.Int32, mscorlib">
+    <value>583</value>
+  </data>
+  <data name="$this.PageWidth" type="System.Int32, mscorlib">
+    <value>827</value>
+  </data>
+  <data name="$this.PaperKind" type="System.Drawing.Printing.PaperKind, System.Drawing">
+    <value>A5</value>
+  </data>
+</root>

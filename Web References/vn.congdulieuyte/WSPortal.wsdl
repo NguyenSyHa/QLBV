@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="https://congdulieuyte.vn/hPortal/services/WSPortal" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="https://congdulieuyte.vn/hPortal/services/WSPortal" targetNamespace="https://congdulieuyte.vn/hPortal/services/WSPortal" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="nhanDDTTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiDTTResponse">
+    <wsdl:part name="guiDTTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="tc_tt_theBHYTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiTTXVResponse">
+    <wsdl:part name="guiTTXVReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="kt_tt_theBHYTResponse">
+    <wsdl:part name="kt_tt_theBHYTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="tc_ls_KCBRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiTTXVRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="nhanTTCTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="nhanTTCTResponse">
+    <wsdl:part name="nhanTTCTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="ws_dyncallRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="svcId" type="soapenc:string" />
+    <wsdl:part name="param" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiTTNVResponse">
+    <wsdl:part name="guiTTNVReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiDDTTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="kt_lamdungtheRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="ws_dyncallResponse">
+    <wsdl:part name="ws_dyncallReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="tc_ls_KCBResponse">
+    <wsdl:part name="tc_ls_KCBReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiTTCTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiDTTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="nhanDDTTResponse">
+    <wsdl:part name="nhanDDTTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="tc_tt_theBHYTResponse">
+    <wsdl:part name="tc_tt_theBHYTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="kt_tt_theBHYTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiTTCTResponse">
+    <wsdl:part name="guiTTCTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="kt_lamdungtheResponse">
+    <wsdl:part name="kt_lamdungtheReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="nhanDTTResponse">
+    <wsdl:part name="nhanDTTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="nhanDTTRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiDDTTResponse">
+    <wsdl:part name="guiDDTTReturn" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="guiTTNVRequest">
+    <wsdl:part name="_usr" type="soapenc:string" />
+    <wsdl:part name="_pwd" type="soapenc:string" />
+    <wsdl:part name="xmlData" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSPortal">
+    <wsdl:operation name="nhanDTT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="nhanDTTRequest" message="impl:nhanDTTRequest" />
+      <wsdl:output name="nhanDTTResponse" message="impl:nhanDTTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="guiDDTT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="guiDDTTRequest" message="impl:guiDDTTRequest" />
+      <wsdl:output name="guiDDTTResponse" message="impl:guiDDTTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="nhanDDTT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="nhanDDTTRequest" message="impl:nhanDDTTRequest" />
+      <wsdl:output name="nhanDDTTResponse" message="impl:nhanDDTTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="kt_lamdungthe" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="kt_lamdungtheRequest" message="impl:kt_lamdungtheRequest" />
+      <wsdl:output name="kt_lamdungtheResponse" message="impl:kt_lamdungtheResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ws_dyncall" parameterOrder="_usr _pwd svcId param">
+      <wsdl:input name="ws_dyncallRequest" message="impl:ws_dyncallRequest" />
+      <wsdl:output name="ws_dyncallResponse" message="impl:ws_dyncallResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="guiTTNV" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="guiTTNVRequest" message="impl:guiTTNVRequest" />
+      <wsdl:output name="guiTTNVResponse" message="impl:guiTTNVResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="guiTTXV" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="guiTTXVRequest" message="impl:guiTTXVRequest" />
+      <wsdl:output name="guiTTXVResponse" message="impl:guiTTXVResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="guiTTCT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="guiTTCTRequest" message="impl:guiTTCTRequest" />
+      <wsdl:output name="guiTTCTResponse" message="impl:guiTTCTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="kt_tt_theBHYT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="kt_tt_theBHYTRequest" message="impl:kt_tt_theBHYTRequest" />
+      <wsdl:output name="kt_tt_theBHYTResponse" message="impl:kt_tt_theBHYTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="tc_tt_theBHYT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="tc_tt_theBHYTRequest" message="impl:tc_tt_theBHYTRequest" />
+      <wsdl:output name="tc_tt_theBHYTResponse" message="impl:tc_tt_theBHYTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="nhanTTCT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="nhanTTCTRequest" message="impl:nhanTTCTRequest" />
+      <wsdl:output name="nhanTTCTResponse" message="impl:nhanTTCTResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="tc_ls_KCB" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="tc_ls_KCBRequest" message="impl:tc_ls_KCBRequest" />
+      <wsdl:output name="tc_ls_KCBResponse" message="impl:tc_ls_KCBResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="guiDTT" parameterOrder="_usr _pwd xmlData">
+      <wsdl:input name="guiDTTRequest" message="impl:guiDTTRequest" />
+      <wsdl:output name="guiDTTResponse" message="impl:guiDTTResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSPortalSoapBinding" type="impl:WSPortal">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="nhanDTT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="nhanDTTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="nhanDTTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiDDTT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guiDDTTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="guiDDTTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nhanDDTT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="nhanDDTTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="nhanDDTTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="kt_lamdungthe">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="kt_lamdungtheRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="kt_lamdungtheResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ws_dyncall">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="ws_dyncallRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="ws_dyncallResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiTTNV">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guiTTNVRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="guiTTNVResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiTTXV">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guiTTXVRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="guiTTXVResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiTTCT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guiTTCTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="guiTTCTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="kt_tt_theBHYT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="kt_tt_theBHYTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="kt_tt_theBHYTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="tc_tt_theBHYT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="tc_tt_theBHYTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="tc_tt_theBHYTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nhanTTCT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="nhanTTCTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="nhanTTCTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="tc_ls_KCB">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="tc_ls_KCBRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="tc_ls_KCBResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiDTT">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guiDTTRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="guiDTTResponse">
+        <wsdlsoap:body use="encoded" namespace="https://congdulieuyte.vn/hPortal/services/WSPortal" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSPortalService">
+    <wsdl:port name="WSPortal" binding="impl:WSPortalSoapBinding">
+      <wsdlsoap:address location="https://congdulieuyte.vn/hPortal/services/WSPortal" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
